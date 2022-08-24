@@ -7,7 +7,7 @@ class Calculator {
     subtract(){return (this.a - this.b)}
     multiply(){return (this.a*this.b)}
     divide(){
-        if(this.b!==0) return this.a+this.b
+        if(this.b!==0) return (this.a/this.b)
         throw new Error('Undefined');
        
     }
